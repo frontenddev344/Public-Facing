@@ -689,6 +689,10 @@ label.check {
     transition: all 0.2s linear;
 }
 
+.blog-card:hover {
+    transform: scale(1.03);
+}
+
 .blog-image {
     border-radius: inherit;
     height: 240px;
