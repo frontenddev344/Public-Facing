@@ -344,6 +344,9 @@ label.check {
     border-color: var(--orange);
 }
 
+.hero-text .primary-btn:hover {
+    background: var(--dark-brown);
+}
 .awards-reco {
     padding: 60px 0;
 }
