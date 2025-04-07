@@ -439,6 +439,10 @@ label.check {
     transition: all 0.2s linear;
 }
 
+.footer-links li a:hover {
+    color: var(--orange);
+}
+
 
 /* service section  */
 
