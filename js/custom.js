@@ -6,7 +6,13 @@ $(document).ready(function(){
     $(".closed-menu").click(function(){
         $("body").removeClass("toggle");
       });
+
+      $(".site-nav li a").click(function(){
+        $(this).addClass("active").parent().siblings().find('a').removeClass("active");
+      });
   });
+
+
 
   var swiper = new Swiper('.awards-slider', {
     slidesPerView: 8, 

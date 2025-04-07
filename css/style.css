@@ -201,7 +201,7 @@ p {
     transition: all 0.2s linear;
 }
 
-.site-nav li a:hover {
+.site-nav li a:hover, .site-nav li a.active {
     color: var(--orange);
 }
 
